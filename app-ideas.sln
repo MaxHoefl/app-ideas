@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bit-Masks-App", "Projects\2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "playground", "playground\playground.csproj", "{9A5F85DC-F59B-4959-B010-DFAD8B5F4241}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Book-Finder-App", "Projects\2-Intermediate\Book-Finder-App\Book-Finder-App.csproj", "{6DA68C6D-D2F4-463C-9101-FD0224EA921E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{9A5F85DC-F59B-4959-B010-DFAD8B5F4241}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A5F85DC-F59B-4959-B010-DFAD8B5F4241}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A5F85DC-F59B-4959-B010-DFAD8B5F4241}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DA68C6D-D2F4-463C-9101-FD0224EA921E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DA68C6D-D2F4-463C-9101-FD0224EA921E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DA68C6D-D2F4-463C-9101-FD0224EA921E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DA68C6D-D2F4-463C-9101-FD0224EA921E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

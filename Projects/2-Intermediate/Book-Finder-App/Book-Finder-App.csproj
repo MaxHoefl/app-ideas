@@ -4,9 +4,11 @@
         <TargetFramework>net7.0</TargetFramework>
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
-        <RootNamespace>Bit_Masks_App</RootNamespace>
+        <RootNamespace>Book_Finder_App</RootNamespace>
     </PropertyGroup>
 
-
+    <ItemGroup>
+      <PackageReference Include="Bogus" Version="34.0.2" />
+    </ItemGroup>
 
 </Project>

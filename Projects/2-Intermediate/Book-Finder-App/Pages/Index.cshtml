@@ -1,0 +1,37 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Book Finder App</h1>
+    <!-- User search input-->
+    <div>
+        <form method="get">
+            <input type="text" asp-for="SearchQuery">
+            <button type="submit">Search</button>
+        </form>
+    </div>
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th scope="col">Title</th>
+            <th scope="col">Author</th>
+            <th scope="col">Publish Date</th>
+            <th scope="col">Cover</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var book in Model.BookSearchResult)
+        {
+            <tr>
+                <td >@book.Title</td>
+                <td>@book.Author</td>
+                <td>@book.PublishedDate.ToLongDateString()</td>
+                <td><img src="@book.CoverImageUri.ToString()" alt="Cover of @book.Title" class="img-thumbnail img-fluid w-25"></td>
+            </tr>
+        }
+    </tbody>
+</table>
+</div>
