@@ -1,0 +1,32 @@
+﻿@page
+@using Bit_Masks_App.Pages.Shared
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+    ViewData["searchResults"] = new List<TimeZoneLocation>();
+    ViewData["offset"] = 0;
+}
+
+<div class="text-center">
+    <p>@ViewData["offset"]</p>
+    <h1 class="display-4">Select cities</h1>
+    @for (var i = 0; i < Model.TimeZoneLocations.Count; i++)
+    {
+        <input type="checkbox" id="checkbox-@i" name="checkbox-@i"/>
+        <label for="checkbox-@i"> @Model.TimeZoneLocations[i].Location GMT@(Model.TimeZoneLocations[i].GmtOffset.ToString())</label><br>
+    }
+    <form method="get">
+        <input type="text" name="searchQuery" />
+        <button type="submit">Search</button>
+    </form>
+    @if (Model.SearchResults != null && Model.SearchResults.Any())
+    {
+        <h2>Search Results:</h2>
+        <ul>
+            @foreach (var result in Model.SearchResults)
+            {
+                <li>@result.Location @result.GmtOffset</li>
+            }
+        </ul>
+    }
+</div>

@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bit-Masks-App", "Projects\2-Intermediate\Bit-Masks-App\Bit-Masks-App.csproj", "{F14AA008-F239-4F8D-BB16-6BF65A560451}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "playground", "playground\playground.csproj", "{9A5F85DC-F59B-4959-B010-DFAD8B5F4241}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F14AA008-F239-4F8D-BB16-6BF65A560451}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F14AA008-F239-4F8D-BB16-6BF65A560451}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F14AA008-F239-4F8D-BB16-6BF65A560451}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F14AA008-F239-4F8D-BB16-6BF65A560451}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A5F85DC-F59B-4959-B010-DFAD8B5F4241}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A5F85DC-F59B-4959-B010-DFAD8B5F4241}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A5F85DC-F59B-4959-B010-DFAD8B5F4241}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A5F85DC-F59B-4959-B010-DFAD8B5F4241}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
